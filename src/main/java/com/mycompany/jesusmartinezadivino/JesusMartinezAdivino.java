@@ -14,7 +14,7 @@ public class JesusMartinezAdivino {
     
      public static void main(String[] args) {
         int n = 0,cont = 0;
-        int x = (int) (500 *Math.random());
+        int x = (int) (Math.random() * 40 + 10);
         //System.out.print(x);
         Scanner sc = new Scanner(System.in);
         do {
